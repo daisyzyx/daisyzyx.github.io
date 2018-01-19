@@ -1,0 +1,504 @@
+*{margin: 0;padding: 0;border:none;outline: none}
+a{color: #000;text-decoration: none}
+/*topbar开始*/
+.topbar{
+    background: #333;
+}
+.topbar .container{
+    height: 42px;
+    width: 1226px;
+    margin: 0 auto;
+}
+.topbar .container a,.spec{
+    line-height: 42px;
+    font-size: 12px;
+    color: #b0b0b0;
+    margin:0 2px;
+}
+.topbar .container a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.topbar .container .header-nav{
+    float: left;
+}
+.topbar .container .header-nav .spec{
+    font-style: normal;
+    padding: 3px;
+}
+.topbar .container .link{
+    font-size: 13px;
+    float:right;
+    margin:0 10px;
+}
+.topbar .container .cart-mini{
+    font-size: 15px;
+    float: right;
+    background: #424242;
+    padding:0 5px;
+}
+.topbar .container .cart-mini:hover{
+    background: #fff;
+    color: rgb(255,103,0);
+}
+/*topbar结束*/
+/*header开始*/
+.header .container{
+    width: 1226px;
+    height: 100px;
+    margin: 0 auto;
+}
+.header .container .logo{
+    background:url("imgs/xiaomi_logo.png") no-repeat;
+    width: 49px;
+    height: 49px;
+    display:inline-block;
+    float: left;
+    margin: 20px 0;
+}
+.header .container ul{
+    float: left;
+    line-height: 80px;
+    padding: 0 0 0 218px;
+}
+.header .container ul li{
+    float:left;
+}
+.header .container ul li .link{
+    margin: 5px;
+    font-size: 15px;
+}
+.header .container ul li .link:hover{
+    text-decoration: none;
+    color:rgb(255,103,0) ;
+}
+.header .container .search{
+    width: 300px;
+    height: 50px;
+    border: 1px solid #cccccc;
+    float: right;
+    margin-top: 20px;
+}
+.header .container .search .input{
+    width: 239px;
+    height: 50px;
+    padding: 0 5px;
+    border-right:1px solid #cccccc;
+}
+.header .container .search button{
+    height: 50px;
+    width: 45px;
+    font-weight: 700;
+    background: #fff;
+    text-align: center;
+    line-height: 50px;
+}
+.header .container .search:hover{
+    border: 1px solid rgb(255,103,0)
+}
+.header .container .search .input:hover{
+    border-right:1px solid rgb(255,103,0)
+}
+/*header结束*/
+/*banner开始*/
+.banner{
+    width: 1226px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.banner .banner-nav {
+    float: left;
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 20px 0;
+    background:rgba(0,0,0,.6);
+}
+.banner .banner-nav li{
+    width: 204px;
+    line-height: 42px;
+    font-size: 14px;
+    padding-left:30px;
+}
+.banner .banner-nav li a{
+    color: #fff;
+}
+.banner .banner-nav li a:hover{
+    text-decoration: none;
+}
+.banner .banner-nav li i{
+    color: #b0b0b0;
+    font-style: normal;
+    font-weight: 900;
+    float: right;
+    padding-right: 25px;
+}
+.banner .banner-nav li:hover{
+    background:rgba(255,103,0,.9);
+}
+/*banner结束*/
+/*home开始*/
+.home{
+    width: 1226px;
+    margin: 20px auto;
+}
+.home .guide li{
+    float: left;
+    width: 70px;
+    height: 72px;
+    text-align: center;
+}
+.home .guide{
+    width: 235px;
+    height: 170px;
+    background:rgb(95,87,80);
+    display: inline-block;
+}
+.home .guide li a{
+    color: #ccc;
+    font-size: 12px;
+    line-height:36px;
+}
+.home .guide .top{
+    border-bottom:1px solid #ccc;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    margin-right: 7px;
+}
+.home .guide .bottom{
+    border-top:1px solid #ccc;
+    margin-right: 7px;
+    margin-top: 3px;
+}
+.home .guide .start,.ground,.channel,.recharge{
+    border-right:1px solid #ccc;
+}
+.home .guide .ground,.retrofit,.recharge,.security{
+    border-left:1px solid #ccc;
+}
+.home .guide li a:hover{
+    color: #fff;
+}
+.home .home1,.home2,.home3{
+    width: 316px;
+    height: 170px;
+    margin-left: 9px;
+}
+/*home结束*/
+/*star开始*/
+.star{
+    width: 1226px;
+    margin: 0 auto;
+    position: relative;
+}
+.star h2{
+    font-size: 22px;
+    line-height: 58px;
+}
+.star .more{
+    width: 70px;
+    height: 25px;
+    border: 1px solid #f7f7f7;
+    position: absolute;
+    top: 23px;
+    right:0;
+}
+.star .more a{
+    display: inline-block;
+    width: 34px;
+    height: 25px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #b0b0b0;
+    text-align: center;
+}
+.star .more a:hover{
+    text-decoration: none;
+    color: rgb(255,103,0);
+}
+.star .more .left{
+    border-left: 1px solid #f7f7f7;
+    float: right;
+    line-height: 25px;
+}
+.star .box ul li{
+    background:#f7f7f7;
+    width: 234px;
+    height: 340px;
+    float: left;
+    margin-right: 14px;
+    text-align: center;
+    border-top:1px solid rgb(255,130,0) ;
+}
+.star .box ul .last{
+    margin: 0;
+}
+.star .box ul li .pic{
+    width: 160px;
+    height: 160px;
+    margin-top: 39px;
+}
+.star .box ul li h3{
+    margin:12px auto 15px auto;
+}
+.star .box ul li a{
+    font-size: 13px;
+    color: #333;
+}
+.star .box ul li a:hover{
+    text-decoration: none;
+}
+.star .box ul li p{
+    font-size: 12px;
+    color: #b0b0b0;
+}
+.star .box ul li .price{
+    font-size: 13px;
+    color:rgb(255,103,0) ;
+}
+/*star结束*/
+/*smart开始*/
+.smart{
+    background: #f1f1f1;
+}
+.smart .bg{
+    width: 1226px;
+    height: 420px;
+    margin:50px auto;
+    position: relative;
+}
+/*清除浮动*/
+.smart::after{
+    content: "";
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+    display: block;
+    width: 0;
+    height: 0;
+}
+.star .box::after{
+    content: "";
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+    display: block;
+    width: 0;
+    height: 0;
+}
+.smart h2{
+    font-size: 22px;
+    line-height: 58px;
+}
+.smart .more{
+    width: 70px;
+    height: 25px;
+    border: 1px solid #f7f7f7;
+    position: absolute;
+    top: 23px;
+    right:0;
+}
+.smart .more a{
+    display: inline-block;
+    width: 33px;
+    height: 26px;
+    font-size: 16px;
+    font-weight: 800;
+    color: #b0b0b0;
+    text-align: center;
+    background: #fff;
+}
+.smart .more a:hover{
+    text-decoration: none;
+    color: rgb(255,103,0);
+}
+.smart .more .left{
+    width: 35px;
+    border-left: 1px solid #f7f7f7;
+    float: right;
+    line-height: 24px;
+}
+.smart .box ul li{
+    width: 234px;
+    height: 340px;
+    float: left;
+    margin-right: 14px;
+    text-align: center;
+    background:#fff;
+}
+.smart .box ul .last{
+    margin: 0;
+}
+.smart .box ul li .pic{
+    width: 160px;
+    height: 160px;
+    margin-top: 39px;
+}
+.smart .box ul li .big{
+    width: 234px;
+    height: 340px;
+    margin:0;
+}
+.smart .box ul li h3{
+    margin:12px auto 15px auto;
+}
+.smart .box ul li a{
+    font-size: 13px;
+    color: #333;
+}
+.smart .box ul li a:hover{
+    text-decoration: none;
+}
+.smart .box ul li p{
+    font-size: 12px;
+    color: #b0b0b0;
+}
+.smart .box ul li .price{
+    font-size: 13px;
+    color:rgb(255,103,0);
+    display: inline-block;
+}
+.smart .box ul li .none{
+    text-decoration: line-through;
+    display: inline-block;
+    margin-left: 5px;
+}
+/*smart结束*/
+/*info开始*/
+.info::after{
+    content: "";
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+    display: block;
+    width: 0;
+    height: 0;
+}
+.info .center{
+    width: 1226px;
+    margin: 0 auto;
+}
+.info .center .service{
+    height: 73px;
+    border-bottom: 1px solid #707070;
+}
+.info .center .service ul li{
+    float: left;
+    width: 242px;
+    height: 21px;
+    border-right:1px solid #707070 ;
+    text-align: center;
+    margin: 26px 0;
+}
+.info .center .service ul .last{
+    border: none;
+}
+.info .center .service ul li a{
+    color:#707070;
+}
+.info .center .service ul li a:hover{
+    text-decoration: none;
+}
+.info .center .nav dl{
+    float: left;
+    width: 160px;
+    height: 112px;
+}
+.info .center .nav dl dt{
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color:#707070
+}
+.info .center .nav dl dd a{
+    font-size: 12px;
+    color:#707070
+}
+.info .center .nav dl dd a:hover{
+    text-decoration: none;
+    color:rgb(255,130,0)
+}
+.info .center .nav .right{
+    float: right;
+    width: 252px;
+    height: 112px;
+    border-left: 1px solid #707070;
+    text-align: center;
+    margin-top: 20px;
+}
+.info .center .nav .right .num{
+    font-size: 20px;
+    color:rgb(255,130,0);
+}
+.info .center .nav .right .time{
+    font-size: 12px;
+}
+.info .center .nav .right .bottom{
+    margin-top: 15px;
+}
+.info .center .nav .right .bottom a{
+    color:rgb(255,130,0);
+    font-size: 14px;
+    border: 1px solid rgb(255,130,0);
+    padding: 5px;
+}
+.info .center .nav .right .bottom a:hover{
+    text-decoration: none;
+    color: #fff;
+    background:rgb(255,130,0)
+}
+/*info结束*/
+/*footer开始*/
+.footer{
+    height: 221px;
+    background:#f1f1f1;
+    margin: 20px 0;
+    position: relative;
+}
+.footer .center{
+    width: 1226px;
+    height: 161px;
+    margin: 50px auto;
+}
+.footer .center .left{
+    padding-top: 30px;
+    width: 680px;
+    height: 52px;
+}
+.footer .center .left img{
+    position: absolute;
+    top: 90px;
+    left: 45px;
+}
+.footer .center .left .links{
+    float: right;
+    position: absolute;
+    top: 84px;
+    left: 120px;
+}
+.footer .center .left .pha{
+    position: absolute;
+    top: 110px;
+    left: 120px;
+}
+.footer .center .left .links .nav,i{
+    font-size: 12px;
+    color: #707070;
+}
+.footer .center .left .links i{
+    font-style: normal;
+}
+.footer .center .left p .small,p{
+    font-size: 10px;
+    color: #d4d0c8;
+}
+.footer .center .right{
+    float: right;
+}
+.footer .center .bottom{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+}
+/*footer结束*/
